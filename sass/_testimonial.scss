@@ -1,0 +1,44 @@
+.testi{
+	border: 1px solid #4D3E3E;
+	border-radius: 10px;
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	background: #FAFFF5;
+	box-shadow: 0 0px 20px gold;
+}
+.frame{
+	padding: 50px 150px;
+}
+.foto{
+	margin-right: 20px;
+	& img:hover{
+		transform: scale(1.1);
+		transition: 1s;
+	};
+}
+.testi_content{
+	h3{
+		text-transform: uppercase;
+		font-size: $fz+14px;
+		color: #455162;
+	}
+	h4{
+		color: #455162;
+		text-transform: uppercase;
+		font-size: $fz/2;
+	}
+	p{
+		color: #8793a4;
+		text-transform: uppercase;
+	}
+}
+.funfact{
+	background: #f6f6f6;
+	h6{
+		color: #f6f6f6;
+	}
+}
+.block{
+	height: 100px;
+}

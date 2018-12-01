@@ -1,0 +1,68 @@
+#contact{
+	background: url(../img/footer.jpg) no-repeat center top/cover;
+	h3{
+		color: #f3f3f3;
+		font-size: $fz*3;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 100px 0 50px 0;
+	}
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+input, textarea{
+	margin: 10px;
+	padding: 10px 20px;
+	border: 2px solid #DB4C2F;
+	border-radius: 5px;
+	background: #F6F6f6;
+	&:focus{
+		background: #FFDCF6;
+		color: #FF1428;
+	};
+}
+.btn_footer{
+	text-align: center;
+	margin-top: 40px;
+}
+.line{
+	border-bottom: 3px solid white;
+}
+.right p{
+	color: white;
+	text-align: center;
+	font-size: $fz+4px;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+}
+.socbar{
+	display: flex;
+	font-size: $fz*3;
+	div{
+		margin-right: 10px;
+	}
+	& div :hover{
+		transform: scale(0.9);
+		transition: 1.5s;
+		opacity: 0.7;
+		color: #DB3F2B;
+	}
+}
+.up{
+	display: flex;
+	justify-content: flex-end;
+	color: #7C6BDB;
+	font-size: $fz*4;
+	& a:hover{
+		color: white;
+		cursor: pointer;
+		transition: 1s;}
+}
